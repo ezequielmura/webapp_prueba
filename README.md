@@ -1,11 +1,16 @@
-# README
+# Web App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This web app consist in a blog which allows the application of the CRUD model in articles. It has different categories and users, who have different levels of permissons.
 
-Things you may want to cover:
+## Software Versions
+* Ruby 2.7.2
+* Rails 5.1.7
 
-* Ruby version
+### Clone repo
+
+In order to clone this project, you need to put the following into git bash
+
+> git clone https://github.com/ezequielmura/webapp_prueba.git
 
 * System dependencies
 
