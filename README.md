@@ -1,7 +1,13 @@
 # Web App
 
 This web app consist in a blog which allows the application of the CRUD model in articles. It has different categories and users, who have different levels of permissons.
+It allows you to create articles and assign them different categories. Also, you can comment the articles and create new categories. In order to do all this things you need to sign in or create a new account.
 
+## App features
+
+Some useful URLs will be listed in the next lines
+* /articles/new -> create a new article
+* /categories/new -> create a new category
 ## Software Versions
 * Ruby 2.7.2
 * Rails 5.1.7
@@ -45,9 +51,12 @@ production:
   url: <%= ENV['DATABASE_URL'] %>
 ```
 After this you need to execute
-```bundle install```
 
-```rails server```
+* ```bundle install```
+
+* ```rails server```
+
+* ```rake db:migrate```
 
 # Link to Heroku app
 [https://serene-forest-67273.herokuapp.com/]
