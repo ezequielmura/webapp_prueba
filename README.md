@@ -45,21 +45,10 @@ production:
   url: <%= ENV['DATABASE_URL'] %>
 ```
 After this you need to execute
->bundle install
->rails server
+```bundle install```
 
-* System dependencies
+```rails server```
 
-* Configuration
+# Link to Heroku app
+[https://serene-forest-67273.herokuapp.com/]
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
